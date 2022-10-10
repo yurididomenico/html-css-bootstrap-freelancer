@@ -51,7 +51,12 @@ section
   width: 200px;
 }
 
-section > .container-md > div > *:not(.box-immagine)
+section > .container-md > div > *:not(.box-immagine, p)
+{
+  padding: 10px 0;
+}
+
+section > .container-md > div
 {
   padding: 10px 0;
 }
@@ -102,6 +107,16 @@ textarea
   border-right: none;
   border-left: none;
   border-color: lightgrey;
+}
+
+.icone
+{
+  width: 50px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
 }
 /* |||||||||| FOOTER |||||||||| */
 
