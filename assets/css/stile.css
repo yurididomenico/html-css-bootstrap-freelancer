@@ -41,19 +41,19 @@ a
 
 
 /* |||||||||| MAIN |||||||||| */
+section
+{
+  padding: 40px 0;
+}
+
 .box-immagine
 {
   width: 200px;
 }
 
-.sezione1 > .container-md > div > *
+section > .container-md > div > *:not(.box-immagine)
 {
   padding: 10px 0;
-}
-
-.sezione1 > .container-md > div:last-child
-{
-  padding: 40px 0;
 }
 
 .separatore > *
@@ -65,6 +65,11 @@ a
 {
   width: 15%;
   height: 3px;
+}
+
+.sezione2 img
+{
+  width: 100%;
 }
 
 
