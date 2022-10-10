@@ -27,13 +27,45 @@ a
   flex-grow: 0;
 }
 
+.bg-darkblue
+{
+  background-color: #2d3e4f;
+}
 
+.bg-lightgreen
+{
+  background-color: #20bd9e;
+}
 /* |||||||||| NAV |||||||||| */
 
 
 
 /* |||||||||| MAIN |||||||||| */
+.box-immagine
+{
+  width: 200px;
+}
 
+.sezione1 > .container-md > div > *
+{
+  padding: 10px 0;
+}
+
+.sezione1 > .container-md > div:last-child
+{
+  padding: 40px 0;
+}
+
+.separatore > *
+{
+  margin: 0 5px;
+}
+
+.linea
+{
+  width: 15%;
+  height: 3px;
+}
 
 
 /* |||||||||| FOOTER |||||||||| */
