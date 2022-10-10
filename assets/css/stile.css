@@ -82,6 +82,27 @@ section > .container-md > div > *:not(.box-immagine)
   width: 150px;
 }
 
+.sezione4 > div > div:last-child > div
+{
+  border-bottom: 1px solid lightgrey;
+}
+
+.sezione4 .form
+{
+  width: 60%;
+}
+.sezione4 .form .btn
+{
+  width: 70px;
+  margin-top: 20px;
+}
+textarea
+{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: lightgrey;
+}
 /* |||||||||| FOOTER |||||||||| */
 
 
