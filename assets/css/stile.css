@@ -72,6 +72,15 @@ section > .container-md > div > *:not(.box-immagine)
   width: 100%;
 }
 
+.sezione3-paragrafi
+{
+  width: 80%;
+}
+
+.sezione3 .btn-outline-light
+{
+  width: 150px;
+}
 
 /* |||||||||| FOOTER |||||||||| */
 
