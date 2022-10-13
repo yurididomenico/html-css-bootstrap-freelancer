@@ -118,6 +118,15 @@ textarea
   align-items: center;
   margin: 0 5px;
 }
+
+.testo
+{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: lightgrey;
+  border-width: 1px;
+}
 /* |||||||||| FOOTER |||||||||| */
 
 
